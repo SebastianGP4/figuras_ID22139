@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|c:\\users\\lenovo\\source\\repos\\sebastiangp4\\figuras_id22139\\figuras_geometricas\\figuras_geometricas\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|solutionrelative:figuras_geometricas\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|c:\\users\\lenovo\\source\\repos\\sebastiangp4\\figuras_id22139\\figuras_geometricas\\figuras_geometricas\\cuadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|solutionrelative:figuras_geometricas\\cuadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|c:\\users\\lenovo\\source\\repos\\sebastiangp4\\figuras_id22139\\figuras_geometricas\\figuras_geometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5E4D964E-DAB4-454C-9455-0AD49AFF7EC4}|Figuras_Geometricas\\Figuras_Geometricas.csproj|solutionrelative:figuras_geometricas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Circulo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Circulo.cs",
+              "RelativeDocumentMoniker": "Figuras_Geometricas\\Circulo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Circulo.cs",
+              "RelativeToolTip": "Figuras_Geometricas\\Circulo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:20:30.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cuadrado.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Cuadrado.cs",
+              "RelativeDocumentMoniker": "Figuras_Geometricas\\Cuadrado.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Cuadrado.cs",
+              "RelativeToolTip": "Figuras_Geometricas\\Cuadrado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:20:24.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Form1.cs",
+              "RelativeDocumentMoniker": "Figuras_Geometricas\\Form1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SebastianGP4\\figuras_ID22139\\Figuras_Geometricas\\Figuras_Geometricas\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Figuras_Geometricas\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:20:16.778Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,60 +1,34 @@
-﻿using FiguraGeometrica;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Figuras_Geometricas
+namespace FiguraGeometrica
 {
-    class Cuadrado : Figura //CLASE HIJA DE FIGURA
+    class Cuadrado : Figura //Esta es una clase hija de Figura
     {
-        //esta clase requiere dos lados para funcionar
-        //creamos el lado2
-        private float lado2;
-        //crear un constructor para cuadrado
-        public float Lado2
-        {
-            set
-            {
-                if (value > 0) //pregunta si el lado <0
-                {
-                    lado2 = 0; //manda el valor a 0
-                } //NO EXISTEN LADOS NEGATIVOS
-                else
-                {
-                    lado2 = value; //value es el valor del textbox
-                }
-            }
-            get //obtener el valor
-            { 
-                return lado2; //regresa o cacha el valor de la variable lado1
-            }
-        }
-
         //usamos el constructor de la clase padre
-        public Cuadrado(float lado1, float lado2)
-        {   //radio se va a leer de la caja de texto con usando el boton guardar
-            this.Lado1 = lado1; //hace que unicamente el valor la cantidad del lado sea disponible para la clase rectangulo, cuando no se use rectangulo la variable sera =0
-            this.Lado2 = lado2;
+        public Cuadrado(float lado)
+        {   //lado se va a leer de la caja de texto con usando el boton guardar
+            Lado1 = lado;
         }
-
         //vamos a usar los métodos de la clase padre
         //vamos a sobreesribir el comportamiento de estos
-        public override float area()
+        public override float area() //Aquí se calcula el área
         {
-            return Lado1 * Lado2;
+            return Lado1 * Lado1;
         }
 
-        public override float perimetro()
+        public override float perimetro() //Aquí se calcula el perímetro
         {
-            return Lado1 * 2 + Lado2 * 2;
+            return Lado1 + Lado1 + Lado1 + Lado1;
         }
 
-        public override float volumen()
+        public override float volumen() //Aquí se calcula el volumen, al ser una figura de dos dimensiones se hace una exepcion
         {
-            throw new NotImplementedException(); //ESTO ES UNA EXEPCION DE USO DEFAULT DEL SISTEMA
+            throw new NotImplementedException();
+            //ESTO ES UNA EXEPCION DE USO DEFAULT DEL SISTEMA
         }
     }
 }
