@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.CALCULAR = new System.Windows.Forms.Button();
             this.LIMPIAR = new System.Windows.Forms.Button();
@@ -55,6 +56,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Gold;
             this.groupBox1.Controls.Add(this.CALCULAR);
             this.groupBox1.Controls.Add(this.LIMPIAR);
             this.groupBox1.Controls.Add(this.EXPORTAR);
@@ -81,60 +83,73 @@
             // 
             // CALCULAR
             // 
+            this.CALCULAR.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.CALCULAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CALCULAR.Location = new System.Drawing.Point(364, 107);
             this.CALCULAR.Name = "CALCULAR";
             this.CALCULAR.Size = new System.Drawing.Size(75, 23);
             this.CALCULAR.TabIndex = 20;
             this.CALCULAR.Text = "CALCULAR";
-            this.CALCULAR.UseVisualStyleBackColor = true;
+            this.CALCULAR.UseVisualStyleBackColor = false;
             this.CALCULAR.Click += new System.EventHandler(this.CALCULAR_Click);
             // 
             // LIMPIAR
             // 
+            this.LIMPIAR.BackColor = System.Drawing.Color.Red;
+            this.LIMPIAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LIMPIAR.Location = new System.Drawing.Point(283, 107);
             this.LIMPIAR.Name = "LIMPIAR";
             this.LIMPIAR.Size = new System.Drawing.Size(75, 23);
             this.LIMPIAR.TabIndex = 19;
             this.LIMPIAR.Text = "LIMPIAR";
-            this.LIMPIAR.UseVisualStyleBackColor = true;
+            this.LIMPIAR.UseVisualStyleBackColor = false;
             this.LIMPIAR.Click += new System.EventHandler(this.LIMPIAR_Click);
             // 
             // EXPORTAR
             // 
+            this.EXPORTAR.BackColor = System.Drawing.Color.Yellow;
+            this.EXPORTAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EXPORTAR.Location = new System.Drawing.Point(189, 107);
             this.EXPORTAR.Name = "EXPORTAR";
             this.EXPORTAR.Size = new System.Drawing.Size(75, 23);
             this.EXPORTAR.TabIndex = 18;
             this.EXPORTAR.Text = "EXPORTAR";
-            this.EXPORTAR.UseVisualStyleBackColor = true;
+            this.EXPORTAR.UseVisualStyleBackColor = false;
             // 
             // DIBUJAR
             // 
+            this.DIBUJAR.BackColor = System.Drawing.Color.Yellow;
+            this.DIBUJAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DIBUJAR.Location = new System.Drawing.Point(108, 107);
             this.DIBUJAR.Name = "DIBUJAR";
             this.DIBUJAR.Size = new System.Drawing.Size(75, 23);
             this.DIBUJAR.TabIndex = 17;
             this.DIBUJAR.Text = "DIBUJAR";
-            this.DIBUJAR.UseVisualStyleBackColor = true;
+            this.DIBUJAR.UseVisualStyleBackColor = false;
             this.DIBUJAR.Click += new System.EventHandler(this.DIBUJAR_Click);
             // 
             // INFO
             // 
+            this.INFO.BackColor = System.Drawing.Color.Yellow;
+            this.INFO.Cursor = System.Windows.Forms.Cursors.Hand;
             this.INFO.Location = new System.Drawing.Point(10, 107);
             this.INFO.Name = "INFO";
             this.INFO.Size = new System.Drawing.Size(92, 23);
             this.INFO.TabIndex = 16;
             this.INFO.Text = "INFORMACIÓN";
-            this.INFO.UseVisualStyleBackColor = true;
+            this.INFO.UseVisualStyleBackColor = false;
             // 
             // GUARDAR
             // 
+            this.GUARDAR.BackColor = System.Drawing.Color.Lime;
+            this.GUARDAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GUARDAR.Location = new System.Drawing.Point(364, 78);
             this.GUARDAR.Name = "GUARDAR";
             this.GUARDAR.Size = new System.Drawing.Size(75, 23);
             this.GUARDAR.TabIndex = 15;
             this.GUARDAR.Text = "GUARDAR";
-            this.GUARDAR.UseVisualStyleBackColor = true;
+            this.GUARDAR.UseVisualStyleBackColor = false;
+            this.GUARDAR.Click += new System.EventHandler(this.GUARDAR_Click);
             // 
             // DATOS
             // 
@@ -196,6 +211,7 @@
             this.CUBO.TabStop = true;
             this.CUBO.Text = "CUBO";
             this.CUBO.UseVisualStyleBackColor = true;
+            this.CUBO.CheckedChanged += new System.EventHandler(this.CUBO_CheckedChanged);
             // 
             // RECTÁNGULO
             // 
@@ -207,6 +223,7 @@
             this.RECTÁNGULO.TabStop = true;
             this.RECTÁNGULO.Text = "RECTÁNGULO";
             this.RECTÁNGULO.UseVisualStyleBackColor = true;
+            this.RECTÁNGULO.CheckedChanged += new System.EventHandler(this.RECTÁNGULO_CheckedChanged);
             // 
             // CÍRCULO
             // 
@@ -218,6 +235,7 @@
             this.CÍRCULO.TabStop = true;
             this.CÍRCULO.Text = "CÍRCULO";
             this.CÍRCULO.UseVisualStyleBackColor = true;
+            this.CÍRCULO.CheckedChanged += new System.EventHandler(this.CÍRCULO_CheckedChanged);
             // 
             // TRIÁNGULO
             // 
@@ -229,6 +247,7 @@
             this.TRIÁNGULO.TabStop = true;
             this.TRIÁNGULO.Text = "TRIÁNGULO";
             this.TRIÁNGULO.UseVisualStyleBackColor = true;
+            this.TRIÁNGULO.CheckedChanged += new System.EventHandler(this.TRIÁNGULO_CheckedChanged);
             // 
             // POLIIRREG
             // 
@@ -251,6 +270,7 @@
             this.CUADRADO.TabStop = true;
             this.CUADRADO.Text = "CUADRADO";
             this.CUADRADO.UseVisualStyleBackColor = true;
+            this.CUADRADO.CheckedChanged += new System.EventHandler(this.CUADRADO_CheckedChanged);
             // 
             // label1
             // 
@@ -264,18 +284,22 @@
             // 
             // IMAGEN
             // 
+            this.IMAGEN.BackColor = System.Drawing.SystemColors.Window;
             this.IMAGEN.BackgroundImage = global::Figuras_Geometricas.Properties.Resources.triangulo;
-            this.IMAGEN.Location = new System.Drawing.Point(12, 160);
+            this.IMAGEN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IMAGEN.Image = global::Figuras_Geometricas.Properties.Resources.triangulo;
+            this.IMAGEN.Location = new System.Drawing.Point(13, 188);
             this.IMAGEN.Name = "IMAGEN";
-            this.IMAGEN.Size = new System.Drawing.Size(265, 286);
+            this.IMAGEN.Size = new System.Drawing.Size(240, 240);
             this.IMAGEN.TabIndex = 1;
             this.IMAGEN.TabStop = false;
             // 
             // INFORMACION
             // 
-            this.INFORMACION.Location = new System.Drawing.Point(297, 161);
+            this.INFORMACION.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.INFORMACION.Location = new System.Drawing.Point(277, 161);
             this.INFORMACION.Name = "INFORMACION";
-            this.INFORMACION.Size = new System.Drawing.Size(194, 285);
+            this.INFORMACION.Size = new System.Drawing.Size(214, 285);
             this.INFORMACION.TabIndex = 2;
             this.INFORMACION.Text = "";
             // 
@@ -283,10 +307,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(509, 467);
             this.Controls.Add(this.INFORMACION);
             this.Controls.Add(this.IMAGEN);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
