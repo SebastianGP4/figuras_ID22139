@@ -115,6 +115,7 @@
             this.EXPORTAR.TabIndex = 18;
             this.EXPORTAR.Text = "EXPORTAR";
             this.EXPORTAR.UseVisualStyleBackColor = false;
+            this.EXPORTAR.Click += new System.EventHandler(this.EXPORTAR_Click);
             // 
             // DIBUJAR
             // 
@@ -138,6 +139,7 @@
             this.INFO.TabIndex = 16;
             this.INFO.Text = "INFORMACIÓN";
             this.INFO.UseVisualStyleBackColor = false;
+            this.INFO.Click += new System.EventHandler(this.INFO_Click);
             // 
             // GUARDAR
             // 
@@ -189,6 +191,7 @@
             this.PRISMA.TabStop = true;
             this.PRISMA.Text = "PRISMA";
             this.PRISMA.UseVisualStyleBackColor = true;
+            this.PRISMA.CheckedChanged += new System.EventHandler(this.PRISMA_CheckedChanged);
             // 
             // POLIREG
             // 
@@ -200,6 +203,7 @@
             this.POLIREG.TabStop = true;
             this.POLIREG.Text = "POLÍGONO REGULAR";
             this.POLIREG.UseVisualStyleBackColor = true;
+            this.POLIREG.CheckedChanged += new System.EventHandler(this.POLIREG_CheckedChanged);
             // 
             // CUBO
             // 
@@ -259,6 +263,7 @@
             this.POLIIRREG.TabStop = true;
             this.POLIIRREG.Text = "POLÍGONO IRREGULAR";
             this.POLIIRREG.UseVisualStyleBackColor = true;
+            this.POLIIRREG.CheckedChanged += new System.EventHandler(this.POLIIRREG_CheckedChanged);
             // 
             // CUADRADO
             // 
@@ -287,7 +292,7 @@
             this.IMAGEN.BackColor = System.Drawing.SystemColors.Window;
             this.IMAGEN.BackgroundImage = global::Figuras_Geometricas.Properties.Resources.triangulo;
             this.IMAGEN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IMAGEN.Image = global::Figuras_Geometricas.Properties.Resources.triangulo;
+            this.IMAGEN.Image = global::Figuras_Geometricas.Properties.Resources.figurasgeoportada;
             this.IMAGEN.Location = new System.Drawing.Point(13, 188);
             this.IMAGEN.Name = "IMAGEN";
             this.IMAGEN.Size = new System.Drawing.Size(240, 240);

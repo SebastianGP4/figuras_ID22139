@@ -108,5 +108,17 @@
   <ItemGroup>
     <None Include="Resources\triangulo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliirreg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polireg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prisma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\figurasgeoportada.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

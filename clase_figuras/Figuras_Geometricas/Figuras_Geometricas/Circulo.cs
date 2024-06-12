@@ -22,12 +22,10 @@ namespace FiguraGeometrica
             //ES UNA CONSTANTE NO DEFINIDA EN UNA VARIABLE
             //PREVIAMENTE, ASI EL PROGRAMA SABE QUE ES UN #
         }
-
         public override float perimetro() //Aquí se calcula el perímetro
         {
             return 3.1416F * 2 * Lado1;
         }
-
         public override float volumen() //Aquí se calcula el volumen, al ser una figura de dos dimensiones se hace una exepcion
         {
             throw new NotImplementedException();

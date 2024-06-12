@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace FiguraGeometrica
 {
-    class PoliIrreg : Figura
+    abstract class PoliIrreg 
     {
-        public PoliIrreg(float lado1)
-        { //lado se va a leer de la caja de texto con
-            //usando el boton guardar
-            Lado1 = lado1;
-        }
-        public override float area()
+        private float lado1;
+        public float Lado1
         {
-            throw new NotImplementedException();
-            //ESTO ES UNA EXEPCION DE USO DEFAULT DEL SISTEMA
+            set
+            {
+                if (value < 0)
+                {
+                    lado1 = 0;
+                }
+                else
+                {
+                    lado1 = value;
+                }
+            }
+            get
+            {
+                return lado1;
+            }
         }
-
-        public override float perimetro()
-        {
-            throw new NotImplementedException();
-            //ESTO ES UNA EXEPCION DE USO DEFAULT DEL SISTEMA
-        }
-
-        public override float volumen()
-        {
-            throw new NotImplementedException();
-            //ESTO ES UNA EXEPCION DE USO DEFAULT DEL SISTEMA
-        }
+        public abstract float area();
+        public abstract float perimetro();
+        public abstract float volumen();
     }
 
     class Rombo : PoliIrreg //clase nieta hereda metodos y lado1 del abuelo figura
